@@ -1,0 +1,9 @@
+/node_modules
+node_modules
+/package-lock.json
+/teroloLogs
+/vercel.json
+# logs/exceptions.log
+exceptLogs
+/IValueWorkLogs
+IValueWorkLogs
