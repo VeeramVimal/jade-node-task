@@ -1,19 +1,21 @@
-
-doctype html5
+doctype html              
 html
   head
     title= title
-    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css")
-    style(type='text/css').
-      #nav li {
-        list-style: none;
-        float: left;
-        padding: 0 10px;
-      }
+
+    meta(charset='utf-8')
+    //- meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css')
+    link(href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\
+  ', rel='stylesheet')
+    link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    div.container(style="max-width: 800px;")
-      h1 Nodejs Jade task
-      block content
- 
-      footer(style="text-align:center;")
-        p Copyright © VR
+    
+
+    block content
+      
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js')
+script(src='js/custom.js')
